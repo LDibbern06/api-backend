@@ -11,8 +11,8 @@ import {
   ParseIntPipe, // Pipe para transformar e validar o ID
 } from '@nestjs/common';
 import { ProductsService } from './products.service';
-import { CreateProductDto } from './dto/create-product.dto';
-import { UpdateProductDto } from './dto/update-product.dto';
+import { CreateProductDto } from '../dto/create-product.dto';
+import { UpdateProductDto } from '../dto/update-product.dto';
 import { ProductEntity } from './entities/products.entity';
 
 /**
